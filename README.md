@@ -1,3 +1,7 @@
+#Fork for TBA Doncaster Mobile Applications
+
+Implemented missing methods/implementations for Pushing Page Models and resolving multiple implementations of an interface through IOC.
+
 # FreshMvvm for Xamarin.Forms
 
 FreshMvvm is a super light Mvvm Framework designed specifically for Xamarin.Forms. It's designed to be Easy, Simple and Flexible. 
