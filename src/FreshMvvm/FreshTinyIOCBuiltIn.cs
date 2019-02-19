@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using FreshTinyIoC;
 
 namespace FreshMvvm
@@ -29,6 +30,11 @@ namespace FreshMvvm
         public ResolveType Resolve<ResolveType>(string name) where ResolveType : class
         {
             return FreshTinyIoCContainer.Current.Resolve<ResolveType> (name);
+        }
+
+        public IEnumerable<ResolveType> ResolveAll<ResolveType>() where ResolveType : class
+        {
+            return FreshTinyIoCContainer.Current.ResolveAll<ResolveType>();
         }
 
         public ResolveType Resolve<ResolveType>() where ResolveType : class

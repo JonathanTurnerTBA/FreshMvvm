@@ -155,6 +155,11 @@ namespace FreshMvvm.Tests.Mocks
             throw new NotImplementedException();
         }
 
+        public Task PushPageModel(Type pageModelType, object data, bool modal = false, bool animate = true)
+        {
+            throw new NotImplementedException();
+        }
+
         public void RemoveFromNavigation()
         {
             throw new NotImplementedException();
