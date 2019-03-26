@@ -195,3 +195,4 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 /samples/FreshMvvmSampleApp/Droid/FreshMvvmSampleApp.Droid.csproj.bak
+/src/.idea/.idea.FreshMvvm
